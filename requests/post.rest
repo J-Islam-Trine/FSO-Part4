@@ -1,0 +1,9 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+
+{
+    "title" : "An intro to Node Router",
+    "author": "anonymous",
+    "url" : "www.someurl.com",
+    "like": 101
+}
